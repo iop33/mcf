@@ -1,0 +1,50 @@
+Prozor: 2018-06-19 -> 2026-07-19 (2106 dana)
+
+Najvece dnevno pomeranje po instrumentu (|log-prinos|):
+tiker      datum          prinos   napomena
+----------------------------------------------------
+AUDUSD=X   2025-04-07     -0.055   
+EURUSD=X   2020-03-20     -0.028   
+GBPUSD=X   2022-09-26     -0.042   
+USDAED=X   2019-12-26     -0.001   
+USDCAD=X   2021-01-01     -0.032   
+USDCHF=X   2025-04-11     -0.041   
+USDHKD=X   2018-09-24     -0.004   
+USDJPY=X   2022-12-21     -0.038   
+USDSAR=X   2026-07-08     +0.040   
+----------------------------------------------------
+CL=F       2020-04-22     +0.320   <-- ekstremno odstupanje
+GC=F       2026-01-30     -0.121   
+HG=F       2025-07-31     -0.252   <-- ekstremno odstupanje
+NG=F       2026-01-29     -0.644   <-- ekstremno odstupanje
+SI=F       2026-01-30     -0.376   <-- ekstremno odstupanje
+ZC=F       2021-07-15     -0.191   <-- ekstremno odstupanje
+ZS=F       2022-08-15     -0.111   
+ZW=F       2022-03-03     +0.197   <-- ekstremno odstupanje
+----------------------------------------------------
+SPY        2020-03-16     -0.116   
+XLB        2020-03-16     -0.117   
+XLC        2020-03-16     -0.120   
+XLE        2020-03-09     -0.225   <-- ekstremno odstupanje
+XLF        2020-03-16     -0.147   
+XLI        2020-03-16     -0.120   
+XLK        2020-03-16     -0.149   
+XLP        2020-03-12     -0.099   
+XLRE       2020-03-16     -0.174   <-- ekstremno odstupanje
+XLU        2020-03-16     -0.121   
+XLV        2020-03-16     -0.104   
+XLY        2020-03-16     -0.135   
+EWA        2020-03-16     -0.176   <-- ekstremno odstupanje
+EWC        2020-03-12     -0.143   
+EWG        2020-03-12     -0.136   
+EWH        2020-03-16     -0.098   
+EWJ        2020-03-12     -0.103   
+EWT        2022-12-13     -0.170   <-- ekstremno odstupanje
+EWW        2020-03-16     -0.165   <-- ekstremno odstupanje
+EWY        2020-03-16     -0.172   <-- ekstremno odstupanje
+IEF        2020-03-16     +0.026   
+SHY        2023-03-13     +0.010   
+TLT        2020-03-20     +0.073   
+----------------------------------------------------
+
+Slike: /Users/matejacivkaroski/Desktop/mcf/rezultati_izlaz/slike/klasa_[fx|futures|etf].png

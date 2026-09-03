@@ -1,0 +1,37 @@
+
+================================================================
+Svih 40 (FX+futures+ETF): T=1943, N=40, q=N/L=0.67 | L=60 | OOS dana=1883
+================================================================
+(preskoceno 10 prozora zbog degenerisanih/vezanih serija)
+metoda            OOS vol   predvidj.  real/pred leverage      cond
+----------------------------------------------------------------
+Empirijska         0.3434      0.0901       3.81      4.1     12759
+clipped            0.2852      0.1874       1.52      1.1        29
+RIE                0.8841      0.0032     279.57      1.2     22571
+Ledoit-Wolf        0.2590      0.1778       1.46      1.3        56
+1/N                0.4735           -          -        -         -
+----------------------------------------------------------------
+OOS vol = realizovana vol normalizovanog GMV portfolija (nizi = bolji).
+  clipped     : -16.9% rizika (nizi) vs empirijska
+  RIE         : +157.5% rizika (VISI) vs empirijska
+  Ledoit-Wolf : -24.6% rizika (nizi) vs empirijska
+  1/N         : +37.9% rizika (VISI) vs empirijska
+
+================================================================
+ETF/akcije (23): T=1954, N=23, q=N/L=0.38 | L=60 | OOS dana=1894
+================================================================
+metoda            OOS vol   predvidj.  real/pred leverage      cond
+----------------------------------------------------------------
+Empirijska         0.4467      0.2357       1.90      7.6      5666
+clipped            0.6018      0.4154       1.45      1.5        39
+RIE                0.9410      0.0149      63.30      1.1      1645
+Ledoit-Wolf        0.5208      0.4009       1.30      2.2       100
+1/N                0.7283           -          -        -         -
+----------------------------------------------------------------
+OOS vol = realizovana vol normalizovanog GMV portfolija (nizi = bolji).
+  clipped     : +34.7% rizika (VISI) vs empirijska
+  RIE         : +110.7% rizika (VISI) vs empirijska
+  Ledoit-Wolf : +16.6% rizika (VISI) vs empirijska
+  1/N         : +63.0% rizika (VISI) vs empirijska
+
+Slika sacuvana: /Users/matejacivkaroski/Desktop/mcf/rezultati_izlaz/slike/markowitz_oos_backfill.png

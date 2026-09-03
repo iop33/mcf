@@ -1,0 +1,11 @@
+Panel: T=1943, N=40 | 2018-06-20 -> 2026-07-17
+
+Funkcije ciscenja: prozor T=80 (q=0.50), lambda raspon [0.008, 12.64]
+Oracle: T_tren=80, T_out=60, n=31 uzoraka
+
+Slaganje sa oracle procenom (bulk, prosek po rangu):
+  sirova lambda : corr=0.962  MSE=0.3591
+  RIE (Box1)    : corr=0.964  MSE=0.3205
+  (RIE treba da ima manju gresku od sirove lambde — to je poenta Slike 1 rada)
+
+Slika sacuvana: /Users/matejacivkaroski/Desktop/mcf/rezultati_izlaz/slike/funkcije_ciscenja.png

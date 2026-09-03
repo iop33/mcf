@@ -1,0 +1,38 @@
+
+================================================================
+Svih 40 (FX+futures+ETF): T=108, N=40, q=N/L=0.67 | L=60 | OOS dana=48
+================================================================
+metoda            OOS vol   predvidj.  real/pred leverage      cond
+----------------------------------------------------------------
+Empirijska         0.2153      0.0758       2.84      3.8      5366
+clipped            0.2906      0.1585       1.83      1.0        34
+RIE                0.7956      0.0030     267.62      1.4     23574
+Ledoit-Wolf        0.2003      0.1579       1.27      1.3        74
+1/N                0.3806           -          -        -         -
+----------------------------------------------------------------
+OOS vol = realizovana vol normalizovanog GMV portfolija (nizi = bolji).
+  clipped     : +35.0% rizika (VISI) vs empirijska
+  RIE         : +269.6% rizika (VISI) vs empirijska
+  Ledoit-Wolf :  -6.9% rizika (nizi) vs empirijska
+  1/N         : +76.8% rizika (VISI) vs empirijska
+  NAPOMENA: RIE je nestabilan na kratkom uzorku (cond>>1000): jedva
+  regularizuje sumni deo spektra -> ogroman leverage u inverziji.
+
+================================================================
+ETF/akcije (23): T=111, N=23, q=N/L=0.38 | L=60 | OOS dana=51
+================================================================
+metoda            OOS vol   predvidj.  real/pred leverage      cond
+----------------------------------------------------------------
+Empirijska         0.3601      0.2459       1.46      6.3      2127
+clipped            0.3910      0.4050       0.97      1.2        37
+RIE                0.6766      0.0130      52.11      1.1       792
+Ledoit-Wolf        0.3504      0.3918       0.89      2.2       111
+1/N                0.5691           -          -        -         -
+----------------------------------------------------------------
+OOS vol = realizovana vol normalizovanog GMV portfolija (nizi = bolji).
+  clipped     :  +8.6% rizika (VISI) vs empirijska
+  RIE         : +87.9% rizika (VISI) vs empirijska
+  Ledoit-Wolf :  -2.7% rizika (nizi) vs empirijska
+  1/N         : +58.1% rizika (VISI) vs empirijska
+
+Slika sacuvana: /Users/matejacivkaroski/Desktop/mcf/rezultati_izlaz/slike/markowitz_oos.png

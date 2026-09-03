@@ -1,0 +1,11 @@
+# izvedeni ocisceni podaci — regenerisu se pokretanjem kod/01_recover_data.py
+rezultati_izlaz/ocisceni_podaci/*.parquet
+
+# Python / okruzenje
+.venv/
+__pycache__/
+*.pyc
+
+# OS / IDE
+.DS_Store
+.idea/

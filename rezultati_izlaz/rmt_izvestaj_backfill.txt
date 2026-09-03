@@ -1,0 +1,9 @@
+BACKFILL dnevni | period 2018-06-20 -> 2026-07-17
+Matrica prinosa: T=1943, N=40, q=N/T=0.0206
+Marcenko-Pastur: [0.734, 1.308]
+Top svojstvene vrednosti: [13.176  3.788  2.865  2.318  1.76   1.348]
+Signal iznad MP ivice: 6/40 | trzisni mod = 32.9% varijanse
+  Empirijska : cond=   1619.6  min_eig=+0.0081  PSD=True  diag~1=True
+  clipped    : cond=     35.4  min_eig=+0.3292  PSD=True  diag~1=True
+  RIE        : cond=     75.2  min_eig=+0.0449  PSD=True  diag~1=True
+Slika sacuvana: /Users/matejacivkaroski/Desktop/mcf/rezultati_izlaz/slike/rmt_spektar_backfill.png

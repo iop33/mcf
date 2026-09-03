@@ -1,0 +1,8 @@
+Matrica prinosa (MINUTNI): T=186763, N=40, q=N/T=0.00021
+Marcenko-Pastur: [0.971, 1.029]
+Top svojstvene vrednosti: [10.271  2.917  2.68   1.917  1.663  1.593]
+Signal iznad MP ivice: 9/40 | trzisni mod = 25.7% varijanse
+  Empirijska : cond=    288.6  min_eig=+0.0356  PSD=True  diag~1=True
+  clipped    : cond=     23.7  min_eig=+0.3853  PSD=True  diag~1=True
+  RIE        : cond=     81.3  min_eig=+0.1198  PSD=True  diag~1=True
+Slika sacuvana: /Users/matejacivkaroski/Desktop/mcf/rezultati_izlaz/slike/rmt_spektar_minute.png
